@@ -2,59 +2,129 @@
 <html lang="es">
 
 
-  <head>
-    <meta charset="UTF-8"><!-- esto es para que reconozca los acentos y las ñ-->
-    <meta html-equiv="X-UA-COMPATIBLE" content ="IE=edge"> <!-- para que sea compatible--> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-<title>proyectoboocamps</title>
+<head>
+  <meta charset="UTF-8"><!-- esto es para que reconozca los acentos y las ñ-->
+  <meta html-equiv="X-UA-COMPATIBLE" content="IE=edge"> <!-- para que sea compatible-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>proyectoboocamps</title>
 
-</head>  
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <h1> contenedor principal</h1>
+  <header>
+    <div style="background-color: beige; width: 50%;"> <!-- Cabecera principal-->
+      <img src="imagenes/Danza1.jpg" />
+      <div>
+
+        <h1> contenedor principal</h1>
+
+        <nav> <!--navegación-->
+          <li><a href="#">Inicio</li> </a>
+          <li><a href="paginas/contactos.html">Contactos</li> </a> <!--ruta relativa-->
+          <li><a href="#">registrate</li></a>
+      </div>
+      </nav>
 
 
-       <nav> <!--navegación-->
-        <li><a href="#">Inicio</li> </a>
-        <li><a href="paginas/contactos.html">Contactos</li> </a> <!--ruta relativa-->
-        <li><a href="#">registrate</li></a>
-</nav>
+      <div> <!--Redes Sociales-->
+        <li> <a href="#facebook"> <img src="imagenes/facebook.jpg" style="width: 100 px; height: 100 px;"> </a></li>
+        <li> <a href="#instagram"> <img src="imagenes/instagram.jpg" style="width: 100 px; height: 100 px;"> </a></li>
+        <li> <a href="#linkedin"> <img src="imagenes/linkedin" style="width: 100 px; height: 100 px;"> </a></li>
+        <li> <a href="#youtube"> <img src="imagenes/youtube" style="width: 100 px; height: 100 px;"> </a></li>
 
 
+      </div>
+      <div>
+        <form>
+          <input type="password" d="contraseña" name="contraseña">
+          <input type="submit" value="enviar">
+          <button style="border: 1; width: 100px; height: 100px "> <input type="submit" name="registrate"
+              id="registrate"></button>
+        </form>
+        <sect>
+          <option value="HTML"> seleccionar el lenguaje</option>
+          <option value="html">html</option>
+          <option value="CSS">CSS</option>
+          <option value="javascript">javascript</option>
+          <option value="C++">C++</option>
+
+        </sect>
+        <form>
+          <label for="name"> nombre</label>
+          <input type="text" id=" name"> <br>
+          <label for="name">apellido</label>
+          <input type="text" id="apellido"><br>
+          <input type="submit" value="enviar">
+
+        </form>
+      </div>
+    </div>
 
 
+    <table border="1">
+      <tr>
+        <th>Ciudad</th>
+        <th>Departamento</th>
+        <th>Numero de habitantes</th>
+      </tr>
+      <tr>
+        <td>Ocaña</td>
+        <td>Norte de Santander</td>
+        <td>130.000</td>
+      </tr>
 
-    </header>
-    <main>
-        <h1>clase de programación basica</h1> 
-        <h1>clases de programación basíca</1>
-        <h6>Aprendiendo los conceptos basicos de progrmación</h6>
-        <p>la etiqueta p es <br /> para parrafos</p>  
-        
-        <ol>
+      <tr>
+        <td>Cucuta</td>
+        <td>Norte de santander</td>
+        <td>1.000.000</td>
+      </tr>
+
+      <tr>
+        <td>Ro de oro </td>
+        <td>Cesar</td>
+        <td>4.000</td>
+      </tr>
+    </table>
+
+    <h1> contenedor principal</h1>
+
+
+  </header>
+  <main>
+    <h1>clase de programación basica</h1>
+    <h1>clases de programación basíca</1>
+      <h6>Aprendiendo los conceptos basicos de progrmación</h6>
+      <p style="background-color: rgb(180, 134, 180); font-family: fantasy; color: rgb(0, 0, 0);">la etiqueta p es
+        <br /> para parrafos
+      </p>
+      <p style="background-color: rgb(139, 86, 115); font-family: fantasy;">la etiqueta p es <br /> para parrafos</p>
+      <p style="background-color: rgb(214, 145, 180); font-family: fantasy;">la etiqueta p es <br /> para parrafos</p>
+
+
+      <ol>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-        </ol>
+      </ol>
 
-        <ul>
+      <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-        </ul>
-
- 
+      </ul>
 
 
-      </main>
-    <foster>
+
+
+  </main>
+  <foster>
     <p>pie de pagina</p>
-    </foster>
+  </foster>
 
 
 
 
-     </body>
+</body>
+
 </html>
